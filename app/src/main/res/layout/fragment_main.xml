@@ -5,6 +5,7 @@
 
     <!--For Special-->
     <EditText
+        android:inputType="text"
         android:id="@+id/edtSpecial"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
