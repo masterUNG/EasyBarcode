@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--For Special-->
+    <EditText
+        android:id="@+id/edtSpecial"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--Barcode Text-->
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Barcode"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--Camera Button-->
+    <Button
+        android:id="@+id/btnScan"
+        android:text="Scan by Camera"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--Check Barcode Button-->
+    <Button
+        android:id="@+id/btnCheck"
+        android:text="Check Bar Code"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--Result -->
+
+</LinearLayout>
