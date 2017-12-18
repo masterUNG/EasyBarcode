@@ -16,7 +16,7 @@
         android:id="@+id/txtDisplay"
         android:layout_margin="15dp"
         android:layout_gravity="center_horizontal"
-        android:text="Barcode"
+        android:text="@string/barcode"
         android:textSize="40sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
